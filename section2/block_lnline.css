@@ -1,0 +1,6 @@
+/* css는 html 코드를 가리키는 pointer 역활을 한다. h1은 초록색*/
+/* 이때 가리키는 것 자체를 selector 이라고 하고 속성은 property */
+
+body {
+  background-color: beige;
+}
