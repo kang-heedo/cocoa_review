@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            /*
+             flex(유연함)를 사용하기 위해서는 사용하고자 하는 태그의 
+             상위(부모)태그에 flex를 설정을 해야된다.
+           */
+            display: flex;
+
+            /* justify-content, align-items는 flex를 가진 상태에서만 사용이 가능 */
+            justify-content: space-between; /* 주측(→)에  적용되는 기능 */
+            align-items: center; /* 교차측(↓)에 적용되는 기능 */
+
+            /* flex-direction은 주측과 교차축을 변경 시킬 수 있다 row는 초기
+            값(default) column은 바꿀 때 */
+        }
+
+        div{
+            width: 300px;
+            height: 300px;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+    <div></div>
+    <div></div>
+</body>
+</html>

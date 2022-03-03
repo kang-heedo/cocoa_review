@@ -1,0 +1,19 @@
+/* 
+    꾸미고 싶은 태그를 쓰고 {} 중괄호를 쓴다음에 그 안에 CSS 코드를 쓰면은 된다.  
+*/
+body {
+  background-color: beige;
+}
+
+/*
+    id를 가지는 것은 단 한명이여만 한다. id는 #id이름을 쓰고  원하는 태그에 id="id이름"를 적으면 된다.
+    class는 여러명이 가질 수 있다. class는 .클래스이름 원하는 태그에 class="class이름"
+*/
+
+#a {
+  background-color: aqua;
+}
+
+.b {
+  color: red;
+}

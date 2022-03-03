@@ -4,10 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="stylesheet" href="block_lnline.css">
-      <!-- css 코드 적용 1번쨰 방법 css 전용 파일을 만든후 링크로 연결하는 방법-->
      <style>
-      /* css 코드를 작성하는 2번째 방법 <head></head> 안 <style> <style> 사이에 적는 것 */
+      
         div{
             height: 150px;
             width: 150px;
@@ -31,15 +29,14 @@
 </head>
 <body>
     <!-- block 속성을 가진 태그는 자신 옆에 다른 태그가 오지 못하게 한다. black은 한 줄을 차지한다-->
-    <!-- inline 속성은 자신 옆에 다른 태그가 올 수 있도록 할 수 있다. span, a, img 등  -->
-    <!-- black, inline은 css로 변경이 가능하다.-->
-
     <div></div>
     <div class="inline">div inline</div>
-
+    
+    <!-- inline 속성은 자신 옆에 다른 태그가 올 수 있도록 할 수 있다. span, a, img 등  -->
     <span>hello</span>
     <span>hello</span>
     <span class="black">hello</span>
-
+    
+    <!-- black, inline은 css로 변경이 가능하다.-->
 </body>
 </html>
