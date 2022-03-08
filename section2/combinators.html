@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p span {
+            /*
+            p span은 p의 하위(자식) 태그인 span를 지정을 한 것이다
+            */
+            background-color: red;
+        }
+
+        div > span {
+            background-color: aqua;
+            /*
+            div > span은 div의 바로 아래에(거장 가까운) 있는 자식을 뜻한다.
+            */
+        }
+
+        p + span {
+            background-color: teal;
+        /*
+          div + span은 p의 자식(하위),부모(상위) 태그가 아니라 형제(동등한)
+          태그를 말하는 것이다. 
+        */
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <span>hello</span>
+        <p>
+            flkfjaldjfldsjoivnsvoidnvoisdnv <span>dsdsd</span>
+            fdfdfdfdfffdfdf
+        </p>
+        <span>++++++</span>
+    </div>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aa</title>
+    <style>
+         body{
+            margin: 50px;
+            
+        }
+        div {
+            background-color: teal;
+            height: 200px;
+            width: 200px;
+        }
+
+        div:first-child{
+            /*
+            pseudo selector은 선택자 중에 하나 인데 복잡한 선택 과정을 말한다.
+            first-child는 첫 번째 div 태그에세 주는 것을 말한다
+            */
+            background-color: red;
+        }
+
+        div:last-child{
+            /*
+            last-child는 마지막 div 태그에세 주는 것을 말한다
+            */
+        }
+
+        div:nth-child(2){
+            background-color: black;
+        /* 
+        nth-child(2)는 ()안에 숫자를 넣어서 지정한다 .div 태그에세 주는 것을 말한다 
+        odd(혹수), even(짝수)를 써서 넣을 수 있다 
+        */
+        }
+    </style>
+</head>
+<body>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+</body>
+</html>
