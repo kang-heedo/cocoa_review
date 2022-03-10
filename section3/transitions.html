@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            padding: 50px;
+        }
+        a{
+            background-color: tomato;
+            font: 30px;
+            padding: 15px;
+            border-radius: 15px;
+            text-decoration: none;
+            transition: background-color 5s ease-in-out;
+            /*
+            transition: 변화를 주고 싶은거, 변화를 주는 시간, 바뀌는 형태
+            transition은 어떤 상태에서 다른 상태로 변화를 줄때 쓰느 애니메이션
+            transition은 state(hover ..)가 없는 요소에 들어가야 한다
+            transition에 변화를 주는 것들은 state에 들어 있는 것들이 기준이 된다.
+
+            */
+        }
+
+        a:hover{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <a href="#">Go home</a>
+</body>
+</html>

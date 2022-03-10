@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            --font-color: red;
+            /*
+            root은 color를 변수(var)에 저장을 할 수 있게 한다.
+            --변수명를 사용하고 이어서 쓰고 싶다면 -를 하나더 쓰면 된다.
+            */
+        }
+        
+        p{
+            color: var(--font-color);
+            /*
+            사용 방법은 color를 넣어야 하는 부분에 var(지정한 이름)를 넣는다,
+            */
+        }
+    </style>
+</head>
+<body>
+        <p>hello</p>
+</body>
+</html>

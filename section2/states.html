@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button:active{
+            background-color: blue;
+            /*
+            active는 마우스로 클릭을 한 상태에서 발동이 된다
+            */
+        }
+
+        .hover:hover{
+            background-color: red;
+             /*
+            hover은 마우스가 위에 올라가 있을때 발동 된다.
+            */
+
+        }
+
+        .foucs:focus{
+            background-color: black;
+             /*
+            foucs는 마우스(키보드) 포인터(커서?)가 있을때 발동이 된다
+            */
+        }
+
+        .focus-within:focus-within{
+            background-color: wheat;
+            /*
+            focus-within는 자산의 자식(하위) 태그가 focused가 되었을 때 
+            자신에게 발동이 된다.
+            */
+        }
+        
+    </style>
+</head>
+<body>
+        <button>hello</button>
+        <input class="hover" type="text"> 
+        <input class="foucs" type="text"> 
+        <form class="focus-within">
+            <input type="text" />
+        </form>
+</body>
+</html>
