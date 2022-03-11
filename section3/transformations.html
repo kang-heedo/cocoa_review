@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link sizes="16x16 32x32 64x64" href="/m.png">
+    <title>Transformations</title>
+    <style>
+        img {
+            border: 2px solid black;
+            border-radius: 10px;
+            transition: transform 3s ease-in-out;
+        }
+
+        img:hover{
+            transform: scale(5);
+            /*
+            transform(변환)은 한 요소를 변형시킬 수 있다.
+            3D까지 구현이 가능하고 여러가지 기능 들이 있다.
+             box element(black, flex ..)에 영향을 주지 않으면 padding, maring
+             도 적용이 안된다.
+            */
+        }
+    </style>
+</head>
+<body>
+    <img src="https://nomadcoders.co/m.svg">
+</body>
+</html>
